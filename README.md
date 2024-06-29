@@ -27,9 +27,7 @@
 
 </div>
 
-## Working Demo 👇
 
-https://user-images.githubusercontent.com/66935206/184427042-8fef5d36-73b0-4be8-9645-9a349436b6ba.mp4
 
 ## Cool Features 😎
 
