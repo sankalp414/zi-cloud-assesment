@@ -64,7 +64,7 @@
 git clone https://github.com/sankalp414/zi-cloud-assesment
 
 # Go to project root folder
-cd Chat-Zoned
+cd zi-cloud-assesment
 ```
 - Create `.env` file in root project folder and add the following environment variables (`KEY = VALUE`) 
 
