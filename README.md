@@ -21,11 +21,7 @@
 - Edit profile pic/profile name
 - Change profile password
 
-<div align="center">
 
-### Deployed to Render.com 👉 <https://chat-zoned-gl2x.onrender.com> 🚀
-
-</div>
 
 
 
