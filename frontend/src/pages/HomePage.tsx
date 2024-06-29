@@ -75,10 +75,10 @@ const HomePage = () => {
           <a
             id="footerLink"
             className="text-decoration-none"
-            href="https://github.com/Abhishek-Sawant-98"
+            href="https://github.com/sankalp414"
             target="blank"
           >
-            <strong>Abhishek Sawant</strong>
+            <strong>Sankalp</strong>
           </a>
         </div>
       )}
