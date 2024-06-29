@@ -84,7 +84,7 @@ https://user-images.githubusercontent.com/66935206/184427042-8fef5d36-73b0-4be8-
 
 ```bash
 #Clone this repo to your local machine
-git clone https://github.com/Abhishek-Sawant-98/Chat-Zoned.git
+git clone https://github.com/sankalp414/zi-cloud-assesment
 
 # Go to project root folder
 cd Chat-Zoned
@@ -144,15 +144,6 @@ npm run build
 
 - Finally, deploy it using [Render.com](https://render.com/). Don't forget to add all the above mentioned environment variables (both backend and frontend) while deploying.
 
-## License
-
-[MIT](LICENSE) © Abhishek Sawant
-
----
-
-<div align="center">
-
-### If you liked this app, show some ❤️ by starring 🌟 the repository 🙂
 
 </div>
 
