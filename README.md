@@ -29,28 +29,7 @@
 
 
 
-## Cool Features 😎
 
-- All frequently used [pure functions](https://www.geeksforgeeks.org/pure-functions-in-javascript/#:~:text=A%20Pure%20Function%20is%20a,depends%20on%20its%20input%20arguments.) are [memoized](https://www.freecodecamp.org/news/understanding-memoize-in-javascript-51d07d19430e/) to improve app performance.
-- [Debouncing](https://www.freecodecamp.org/news/javascript-debounce-example/) has been implemented for every search box in the app to improve app performance.
-- [Event Delegation](https://www.geeksforgeeks.org/event-delegation-in-javascript/) has been implemented for every parent element containing an item list (messages list, user list, group member list, chat list, notification list etc.) to improve app performance.
-- [Promise.all()](https://dmitripavlutin.com/promise-all/) has been used for `concurrent execution` of `independent async operations` wherever necessary (eg. concurrently deleting all group chat messages upon group chat delete), to improve app performance.
-- [Code splitting](https://reactjs.org/docs/code-splitting.html) (lazy loading) has been implemented to load either homepage or chatpage based on user logged-in status.
-- `Loading Skeletons` and `Circular Spinners` are displayed for all async (time consuming) API calls, for better UX.
-- [Sockets](https://socket.io/) have been used not just for real-time messaging, but also for `real-time message updates` (editing/deleting message), `real-time group updates` like creating a new group, updating group name/display pic, adding/ removing members, making/dismissing group admins, exiting/deleting group etc.
-- `Typing Indicators` (similar to MS Teams app) have also been implemented using sockets.
-- `Real-time notifications` also implemented using sockets. Most important, all the notifications are `PERSISTED` (saved) in MongoDB, so even if a user is offline/logged out, he/she will see all the notifications after logging in.
-- All new message notifications are `grouped by chat` in the UI, and the respective chat specific notification counts are displayed on each chat (similar to Whatsapp).
-- The notification count after every new message delete, is `updated in real-time` for ALL OTHER USERS of that chat.
-- [Emoji picker](https://www.npmjs.com/package/emoji-picker-react) has been added to new message input box, to conveniently allow the user to select all native emojis of his/her device.
-- `Enter` key can be used for submitting udpated profile name/group name, or for sending a new message.
-- `Shift + Enter` key can be used for adding a new line in message text content.
-- The sent/updated message `PRESERVES the formatting` of the message text content.
-- Edit message feature is similar to 'MS Teams edit message feature', where you can modify text content, add/remove/change attached files of that message, discard updated draft etc.
-- `File preview` is displayed whenever you add/change an attachment, before sending and updating a message.
-- User Passwords are `encrypted` before storing/updating them in MongoDB, using [bcryptjs](https://www.npmjs.com/package/bcryptjs), to improve security.
-- User [Authorization](https://auth0.com/intro-to-iam/what-is-authorization/) is carried out by an [express middleware](https://expressjs.com/en/guide/using-middleware.html#middleware.router) using [JWT package](https://www.npmjs.com/package/jsonwebtoken), before performing ANY chatpage specific operation.
-- Every user login session expires after 15 days.
 
 ## Tools Used 🛠️
 
