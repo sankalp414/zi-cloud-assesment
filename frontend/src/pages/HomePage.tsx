@@ -69,7 +69,19 @@ const HomePage = () => {
           </section>
         </section>
       )}
-      {showLogin }
+      {showLogin && (
+        <div className={`footer fs-5 w-75 text-light`}>
+          &copy; {COPYRIGHT_YEAR} Made with 💙 by &nbsp;
+          <a
+            id="footerLink"
+            className="text-decoration-none"
+            href="https://github.com/sankalp414"
+            target="blank"
+          >
+            <strong>SankalpSharma</strong>
+          </a>
+        </div>
+      )}
     </>
   );
 };
