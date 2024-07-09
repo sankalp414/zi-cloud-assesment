@@ -20,7 +20,7 @@
     "mongodb",
     "mern"
   ],
-  "author": "Abhishek Sawant",
+  "author": "Sankalp",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1168.0",
