@@ -78,7 +78,7 @@ const HomePage = () => {
             href="https://github.com/sankalp414"
             target="blank"
           >
-            <strong>Sankalp <Sharma></Sharma></strong>
+            <strong>Sankalp Sharma</strong>
           </a>
         </div>
       )}
