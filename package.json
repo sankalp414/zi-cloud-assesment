@@ -24,6 +24,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1168.0",
+    "axios": "^1.7.2",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.30.0",
     "cors": "^2.8.5",
@@ -37,6 +38,7 @@
     "socket.io": "^4.5.2"
   },
   "devDependencies": {
+    "@types/node": "^20.14.10",
     "nodemon": "^2.0.16"
   }
 }
